@@ -4,15 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack serve",
+    "build": "webpack"
   },
   "author": "Xyves",
   "license": "ISC",
   "devDependencies": {
     "autoprefixer": "^10.4.16",
+    "css-loader": "^6.8.1",
+    "html-loader": "^4.2.0",
     "postcss": "^8.4.31",
+    "postcss-loader": "^7.3.3",
+    "postcss-preset-env": "^9.1.4",
+    "style-loader": "^3.3.3",
     "tailwindcss": "^3.3.3",
+    "ts-loader": "^9.4.4",
     "webpack": "^5.88.2",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }
